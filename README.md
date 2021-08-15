@@ -1,6 +1,7 @@
 # C
 Reihenfolge:
-```Variables - Data Types - Print
+```
+Variables - Data Types - Print
 Useful stuff
 Constants
 Getting User Input
