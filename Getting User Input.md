@@ -10,7 +10,7 @@ Um den User nach seinem Alter zu fragen muss eine Varaible erstellt werden, die 
 ```C
 char name[20]; // maximal 19 chars.
 printf("Enter your name: ");
-scanf("%d", &name);
+scanf("%s", &name);
 printf("Your name is %s", name);
 ```
 - Bei `scanf()` wird alles eingegeben **nach** einem Leerzeichen nicht betrachtet !
