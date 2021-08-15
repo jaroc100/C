@@ -10,8 +10,8 @@ char name[] = "Dennis";
 - wie gewohnt aus java.
 ```C
 int age = 69;
-double weight = 70,34;
-float favNum  = 3,14;
+double weight = 70.34;
+float favNum  = 3.14;
 ```
 
 ## Print Befehle
