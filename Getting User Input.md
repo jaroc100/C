@@ -17,7 +17,7 @@ printf("Your name is %s", name);
 ```C
 char name[20]; // maximal 19 chars.
 printf("Enter your name: ");
-scanf("%d", &name);	// <-- User gibt ein: John Smith.
+scanf("%s", &name);	// <-- User gibt ein: John Smith.
 printf("Your name is %s", name);
 // Ausgabe --> Your name is John.
 ```
