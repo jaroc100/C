@@ -9,9 +9,9 @@ char name[] = "Dennis";
 ## Zahlen
 - wie gewohnt aus java.
 ```C
-int age[] = 69;
-double weight[] = 70,34;
-float favNum [] = 3,14;
+int age = 69;
+double weight = 70,34;
+float favNum  = 3,14;
 ```
 
 ## Print Befehle
