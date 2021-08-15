@@ -8,14 +8,14 @@ printf("Your are %d years old", age); // ausgabe des eingegebenen alters.
 Um den User nach seinem Alter zu fragen muss eine Varaible erstellt werden, die keinen Wert zugewiesen bekommt, da dieser später mit `scanf()` einen Wert von dem User bekommt. Damit man mit Scan einen Wert von dem User speichern kann muss ein `&` vor den Variablennamen geschrieben werden. `&age` ist ein [[Pointer]].
 - Bei Strings muss in den Klammern definiert werden wie groß der String sein darf:
 ```C
-char name[20]; // maximal 20 chars.
+char name[20]; // maximal 19 chars.
 printf("Enter your name: ");
 scanf("%d", &name);
 printf("Your name is %s", name);
 ```
 - Bei `scanf()` wird alles eingegeben **nach** einem Leerzeichen nicht betrachtet !
 ```C
-char name[20]; // maximal 20 chars.
+char name[20]; // maximal 19 chars.
 printf("Enter your name: ");
 scanf("%d", &name);	// <-- User gibt ein: John Smith.
 printf("Your name is %s", name);
