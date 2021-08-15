@@ -36,6 +36,6 @@ printf("Enter your name: ");
 fgets(name, 20, stdin);	// <-- Eingabe: John Smith.
 printf("Your name is %s WOOOW", name);
 /* Ausgabe --> 	Your name is John Smith
-		   -->	WOOW
+	   -->	WOOW
 */
 ```
